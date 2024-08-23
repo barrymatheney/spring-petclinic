@@ -31,6 +31,9 @@ jobs:
     #   image:  docker:latest 
 
     steps:
+      - name: Print environment variables
+        run: |
+          printenv | sort
       - uses: actions/checkout@v3
         name: Check out code
 

@@ -16,3 +16,6 @@ _site/
 *.css
 !petclinic.css
 scr_local_secrets.sh
+.scr_local_secrets
+.secrets
+.env
